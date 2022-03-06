@@ -1,4 +1,4 @@
-import './style.css';
+import './../Style/style.css'
 function Header(){
     
         return(
@@ -7,23 +7,24 @@ function Header(){
                 
                 {/* Logo */}
                 <div class="navLogo">
-                    <a href="" >Logo</a>
+                <a href="google.com" >Jhonny</a>
                 </div>
                 
                 {/*Links*/}
                 <div class="navMenu">
                     <ul>
-                        <li><a href="#" class="navLink">Home</a></li>
-                        <li><a href="#" class="navLink">Tecnologias</a></li>
-                        <li><a href="#" class="navLink">Portfolio</a></li>
-                        <li><a href="#" class="navLink">Sobre</a></li>
+                        <li><a href="google.com" class="navLink">Home</a></li>
+                        <li><a href="google.com" class="navLink">Tecnologias</a></li>
+                        <li><a href="google.com" class="navLink">Portfolio</a></li>
+                        <li><a href="google.com" class="navLink">Sobre</a></li>
                         
+                    
                     </ul>    
                 </div>
 
                 {/*Botão CTA*/}
                 <div>
-                    <a href="" class="navCTA">Contact</a>
+                    <a href="google.com" class="navCTA">Contact</a>
                 </div>
                 </section>
             </nav>
