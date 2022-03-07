@@ -72,6 +72,13 @@ body {
   background-color: #2F2F2F;
 }
 
+.card {
+  display: inline-block;
+  margin: 12px;
+  border-radius: 5px;
+  padding: 12px 8px;
+}
+
 .nav {
   width: 100%;
   background-color: #232323;
@@ -167,5 +174,45 @@ h3 {
 
 h4 {
   font-size: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: 1px solid white;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=style.css.map */
